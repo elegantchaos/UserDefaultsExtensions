@@ -6,7 +6,7 @@
 import Foundation
 
 
-extension UserDefaults {
+public extension UserDefaults {
     
     /// Write a value to the defaults if it has changed.
     /// We perform a comparison first to avoid triggering unnecessary

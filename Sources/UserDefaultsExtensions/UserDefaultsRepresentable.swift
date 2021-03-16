@@ -7,7 +7,7 @@ import Foundation
 
 
 /// Types conforming to this protocol can be stored directly into UserDefaults
-protocol UserDefaultsRepresentable {
+public protocol UserDefaultsRepresentable {
 }
 
 extension String: UserDefaultsRepresentable {

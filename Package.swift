@@ -1,4 +1,4 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.3
 
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 //  Created by Sam Deane on 16/03/2021.
@@ -18,7 +18,7 @@ let package = Package(
             targets: ["UserDefaultsExtensions"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/elegantchaos/XCTestExtensions.git", from: "1.2.0")
+        .package(url: "https://github.com/elegantchaos/XCTestExtensions.git", from: "1.3.1")
     ],
     targets: [
         .target(
